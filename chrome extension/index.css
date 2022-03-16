@@ -5,12 +5,13 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
+    min-width: 360px;
 }
 #extension{
     padding: 8px;
     margin-left: 10px;
     margin-right: 3px;
-    width: 50%;
+    width: 250px;
     border: 1px solid rgb(185, 185, 185);
     border-radius:3px;
     box-sizing: border-box;
@@ -29,6 +30,15 @@ body {
 #extension-btn:hover{
     background:rgb(68, 149, 255);
 }
-#ul-list li{
-    margin: 7px 0 7px 25px;
+#ul-list{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+li{
+    margin:0 0 5px 15px;
+}
+li a{
+    color: rgb(25, 125, 255);
+    text-decoration: none;
 }
