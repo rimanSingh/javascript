@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: lightblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 40px;
+    
+}
+#increment-btn{
+    padding: 15px;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border-radius:6px;
+    font-size:20px;
+    width: 220px;
+}
+#increment-btn:hover{
+    background-color: rgb(47, 163, 47);
+}
+
+#save-btn{
+    padding: 15px;
+    margin-top: 20px;
+    background-color: rgb(11, 41, 126);
+    color: white;
+    border-radius:6px;
+    font-size:20px;
+    width: 220px;
+}
+#save-btn:hover{
+    background-color: rgb(40, 69, 148);
+}
+
+#save-el{
+    margin-top: 15px;
+    font-size: 20px;
+    
+    font-weight: bold;
+}
